@@ -1,0 +1,203 @@
+/***********FONTS************/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@300&family=Quicksand&family=Roboto:wght@300&display=swap');
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  margin: 0;
+  padding-top: -2rem;
+  font-family: 'Roboto', sans-serif;
+  /* background: black; */
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(22, 34, 56);
+}
+
+*:hover{
+  outline: 1px solid red;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.header {
+  background: rgb(227, 227, 255);
+  margin: 0;
+}
+
+.icon img{
+  width: 1rem;
+}
+
+.icon{
+  margin: 0;
+}
+
+.nav{
+  float: left;
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: aliceblue;
+}
+
+.nav-logo{
+  float: left;
+  width: 15%;
+  margin:0;
+  font-size: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+
+.nav-list{
+  float: left;
+  width: 70%;
+  padding: 0 15%;
+  font-size: 0.75rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.nav-btn{
+  float: left;
+  width: 8%;
+  font-size: 0.75rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  padding: 0;
+}
+
+.nav-btn button{
+  margin: 0;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  background: rgb(22, 34, 56);
+  color: white;
+}
+
+.nav-list li{
+  float: left;
+  width: auto;
+  padding: 0.3rem;
+}
+
+.section{
+  float: left;
+  width: 100vw;
+  padding: 5vh 10vw;
+  background-color: aliceblue;
+}
+
+.title-section{
+  float: left;
+  width: 50%;
+  padding-right: 5rem;
+}
+
+.title-section h2{
+  font-size: 1rem;
+}
+
+.title-section p{
+  font-size: 0.6rem;
+}
+.title-section input{
+  font-size: 0.6rem;
+}
+.title-section button{
+  font-size: 0.6rem;
+  background: rgb(22, 34, 56);
+  color: aliceblue;
+}
+
+.tagline{
+  font-size: 0.6rem;
+}
+
+.image-section{
+  float: left;
+  width: 50%;
+}
+
+.image-section img{
+  width: 250px;
+  height: auto;
+}
+
+.feature-section{
+  
+  float: left;
+  width: 100%;
+}
+
+.feature-section section{
+  
+  float: left;
+  width: 25%;
+  padding: 1rem;
+}
+
+.feature-section section > h4{
+  font-size: 0.7rem;
+}
+
+.feature-section section > p{
+  font-size: 0.5rem;
+}
+
+.feature-section section a{
+  font-size: 0.6rem;
+  
+}
+
+.main{
+  float: left;
+  width: 100%;
+  padding: 1rem 5rem;
+}
+
+.main-section{
+  float: left;
+  width: 50%;
+}
+
+.main-section h1{
+  font-size: 1.5rem;
+}
+
+.main-section p{
+  font-size: 0.6rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
