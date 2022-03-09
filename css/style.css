@@ -61,6 +61,8 @@ a{
   margin: 0;
 }
 
+@media screen and (min-width: 576px) {
+
 .nav{
   float: left;
   width: 100%;
@@ -197,6 +199,185 @@ a{
 
 .main-section p{
   font-size: 0.6rem;
+}
+}
+
+@media screen and (max-width: 576px) {
+  .nav{
+    float: left;
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    background-color: aliceblue;
+  }
+  
+  .nav-logo{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin:0;
+    font-size: 1.8rem;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+  }
+  
+  .nav-list{
+    display: none;
+    float: left;
+    width: 70%;
+    padding: 0 15%;
+    font-size: 0.75rem;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  .nav-btn{
+    display: none;
+    float: left;
+    width: 8%;
+    font-size: 0.75rem;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    padding: 0;
+  }
+  
+  .nav-btn button{
+    margin: 0;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: rgb(22, 34, 56);
+    color: white;
+  }
+  
+  .nav-list li{
+    float: left;
+    width: auto;
+    padding: 0.3rem;
+  }
+  
+  .section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding: 5vh 10vw;
+    background-color: aliceblue;
+  }
+  
+  .title-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* padding-right: 5rem; */
+  }
+  
+  .title-section h2{
+    font-size: 2rem;
+    width: 100%;
+  }
+  
+  .title-section p{
+    font-size: 1rem;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .title-section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    width: 100%;
+  }
+  .title-section input{
+    font-size: 0.8rem;
+    height: 1.5rem;
+    width: 100%;
+    border: 1px solid #162238;
+  }
+  .title-section button{
+    font-size: 1rem;
+    width: 100%;
+    background: rgb(22, 34, 56);
+    color: aliceblue;
+  }
+  
+  .tagline{
+    font-size: 1rem;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .image-section{
+    float: left;
+    width: 100%;
+  }
+  
+  .image-section img{
+    width: 100%;
+    height: auto;
+  }
+  
+  .feature-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .feature-section section{
+    border: 1.5px solid rgb(22, 34, 56);
+    border-radius: 0.4rem;
+    /* float: left; */
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .feature-section section > h4{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .feature-section section > p{
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  
+  .feature-section section a{
+    font-size: 0.6rem;
+    color: rgb(22, 34, 56);
+    
+  }
+  
+  .main{
+    float: left;
+    width: 100%;
+    padding: 1rem 1rem;
+    background: #162238;
+    color: aliceblue;
+  }
+  
+  .main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .main-section h1{
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .main-section p{
+    font-size: 1rem;
+    text-align: justify;
+  }
+  
 }
 /******************************************
 /* ADDITIONAL STYLES
